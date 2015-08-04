@@ -1,0 +1,41 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drLayour"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout
+            android:id="@+id/frLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sugeng Rahayu"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="@android:color/holo_green_light"/>
+        </FrameLayout>
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nvheader"
+        app:itemIconTint="#333"
+        app:itemTextColor="#333"
+        app:menu="@menu/navigation_draw_item" />
+
+
+</android.support.v4.widget.DrawerLayout>

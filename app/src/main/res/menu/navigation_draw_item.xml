@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.androidrey.repositorypractice.MainActivity">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/navigation_item_1"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Snack Bar" />
+        <item
+            android:id="@+id/navigation_item_2"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Others" />
+
+
+    </group>
+
+</menu>
